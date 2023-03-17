@@ -1,4 +1,5 @@
 import 'package:design_app/widgets/bottom_navbar.dart';
+import 'package:design_app/widgets/card_table.dart';
 import 'package:flutter/material.dart';
 import 'package:design_app/widgets/background.dart';
 
@@ -43,6 +44,8 @@ class _HomeBody extends StatelessWidget {
                 fontSize: 14,
               ),
             ),
+
+            CardTable()
           ],
         ),
       )),
